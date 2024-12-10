@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id Card</title>
+    <style>
+        body{
+            background-image: url(2.jpg);
+            background-size: cover;
+            font-family:sans-serif;
+
+        }
+        .container{
+            width: 280px;
+            height: 400px;
+            background-color: transparent;
+            border: 1px solid rgb(167, 164, 164);
+            border-radius: 10px;
+            margin-left: 500px;
+            margin-top: 100px;
+            backdrop-filter:blur(8px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0px 0px 40px gray;
+
+      
+
+        }
+        .container:hover{
+           box-shadow: 0px 0px 50px white;
+           transition: 1.5s;
+        }  
+        .logo{
+            margin-top: 20px;
+    
+            
+            
+        }
+        .photo{
+            background-image:url(photo.avif);
+            background-size: cover;
+            width: 150px;
+            height: 150px;
+            border: 1px solid rgb(167, 164, 164);
+            border-radius: 50%;
+            
+        }
+        .photo:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 40px white;
+            transition: 1.5s;
+        }
+        .name{
+            text-align: center;
+        }
+
+        .About{
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .About span{
+            margin-right: 15px;
+            font-weight: 700;
+        }
+       
+        .under:hover{
+            border-bottom: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logoit.png">
+
+
+        </div>
+        <div class="photo">
+    
+        </div>
+        <div class="name">
+            <h3 class="under">ZEESHAN KHAN </h3>
+            <p class="under">CEO OF IT PATHSHAALA</p>
+            <hr>
+        </div>
+        <div class="About">
+            <label for="Id" class="under"><span>ID:</span>2566533</label>
+            <label for="group" class="under"><span>Blood:</span> A+</label>
+            <label for="number" class="under"><span>Phone No:</span>9568046912</label>
+            <label for="email" class="under"><span>Email:</span>info@itpathshaala.in</label>
+
+
+        </div>
+        
+
+    </div>
+
+    
+</body>
+</html>

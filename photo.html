@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation Photo</title>
+    <style>
+        body{
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        #container{
+            width: 50%;
+            height: 200px;
+            display: flex;
+            gap: 5px;
+            
+        }
+        #container img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border: 2px solid white;
+            border-radius: 10px;
+            transform: all ease-out 0.5s;
+            cursor: pointer;
+        }
+        #container img:hover{
+            width: 100%;
+            box-shadow: 0px 0px 50px white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="image/2.jpg" alt="">
+        <img src="image/1.jpg" alt="">
+        <img src="image/3.jpg" alt="">
+        <img src="image/4.jpg" alt="">
+        <img src="image/5.jpg" alt="">
+        <img src="image/6.jpg" alt="">
+        <img src="image/2.jpg" alt="">
+        <img src="image/1.jpg" alt="">
+        <img src="image/3.jpg" alt="">
+
+    </div>
+    
+</body>
+</html>

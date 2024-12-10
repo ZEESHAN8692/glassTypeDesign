@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;  
+        }
+        body{
+            background-image: url(background.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+        #card{
+            width: 400px;
+            height: 240px;
+            border: 1px solid gray;
+            background-color:transparent;
+            border-radius: 10px;
+            position: sticky;
+            backdrop-filter: blur(8px);
+            box-shadow: 0px 0px 50px white;
+            
+            
+        }
+        #pic1{
+            width: 50px ;
+            height: 50px;
+            position: relative;
+            top: 70px;
+            left: 40px;
+
+            
+
+        }
+        #pic2{
+            width: 70px ;
+            height: 70px;
+            position: relative;
+            left: 260px;
+            
+
+        }
+        h4{
+            position: relative;
+             justify-content: center;
+             align-self: center;
+             margin-bottom: 100px;
+             font-size: 20px;
+             top: 90px;
+             left:110px;
+             color: white;
+
+        }
+        h4:hover{
+            text-shadow: 0px 0px 20px white;
+            
+        }
+        p:hover{
+            text-shadow: 0px 0px 20px white;
+        }
+        #card:hover{
+            border: 1px  solid white ;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div id="card">
+       
+        <img src="chip.png" alt="" id="pic1" >
+        <img src="visa.png" alt="" id="pic2">
+        <h4 >1234 5678 9632 1478</h4>
+        
+        <b><p style="margin-top: 122px;margin-left: 10px;color: white;">ZEESHAN KHAN</p></b>
+       <b><p style="margin-left: 230px;margin-top: -17px;color: white;"> VALID PERIOD 12/25</p></b>
+
+    </div>
+
+    
+</body>
+</html>
